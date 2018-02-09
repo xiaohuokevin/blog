@@ -1,0 +1,39 @@
+baseurl = "http://www.xiaohuo.me/"
+languageCode = "en-us"
+title = "小火"
+theme = "hugo-theme-casper"
+paginate = 5
+Copyright = "All rights reserved - 2018 &nbsp;&nbsp;辽ICP备14007378号-2"
+pluralizelisttitles = false
+
+[[menu.main]]
+  identifier = "blog"
+  name = "My Blog"
+  url = "/"
+  weight = -120
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/xiaohuokevin"
+  weight = 100
+
+[[menu.main]]
+  name = "sina 微博"
+  url = "https://weibo.com/xiaohuokevin"
+  weight = 101
+
+[params]
+  description = "小火的博客,小火博客"
+  author = "小火"
+  authorlocation = "Beijing, China"
+  cover = "//static.xiaohuo.me/images/blog_1.jpg"
+  authorbio = "I Love You"
+  googleAnalyticsUserID = "UA-93045180-1"
+  githubName = "xiaohuokevin"
+  hideHUGOSupport = true
+  hjsStyle = "default"
+  cdn_url = "//static.xiaohuo.me" 
+
+  [params.social]
+    sina = "http://weibo.com/12291105"
+
